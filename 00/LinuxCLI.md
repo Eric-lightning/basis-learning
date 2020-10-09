@@ -64,6 +64,13 @@ eric@DESKTOP-6GK3A2H:~/javaScola/workspace$ pwd
 - `find ./ -name [filename]` ... `./`以下のなかで、filenameのファイルがどこにあるか探す（その他、オプションによって、何分以内に更新したファイルなども確認でき
 - `grep keyword  [filename]` ... keywordが何行目にあるか全文検索する。大学のサーバーではなく、自分の環境でなら、[BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep)もおすすめ。
 
+
+## ポイント
+
+- `^C`の`^`はCtrlという意味です。`^C`でキャンセルです。`^Z`で休止状態です。`^Z`した場合は、`jobs`コマンドで番号を確認、`fg %1`で復帰できます。
+- `less`などのコマンドは、quitを意味する`q`で終了することもできます。
+
+
 ## その他
 
  大量にコマンドあります。
