@@ -16,7 +16,6 @@ $ [コマンド] [オプション] [ファイル名やディレクトリ（フ�
 ```
 eric@DESKTOP-6GK3A2H:~$ ls
 99_MOVE      LaTeX       NTLRTC  TeXWorkDir  apo           ccn204  chat-group-master  janog46    myCoreutils   package-lock.json          pyselen                   some-lists  tango_directory  utils
-CSV_kaiseki  Mesg_Files  SBC     api         bash-scripts  ccn210  go                 javaScola  node_modules  pandoc-2.10.1-1-amd64.deb  ripgrep_12.1.1_amd64.deb  star.md     test             web_notetools
 ```
 
 ### cdコマンド - Change Directory(フォルダ) する
@@ -32,6 +31,18 @@ eric@DESKTOP-6GK3A2H:~/javaScola$ ls
 ```
 eric@DESKTOP-6GK3A2H:~/javaScola$ cd ..
 ```
+
+#### Linuxにおけるディレクトリ（フォルダ）階層
+
+- 一番上を`/`と書き、Root（ルート、根っこ）と呼ぶ。
+- `/`で下の階層に行く。
+
+| PATH | 意味 |
+`/` | ルート
+`/home/j1xxxxaa` | ホームディレクトリ
+`/home/j1xxxxaa/java` | ホームディレクトリ中の`java`フォルダ
+
+
 ### 今いる場所を見る pwd
 
 ```
@@ -56,8 +67,8 @@ eric@DESKTOP-6GK3A2H:~/javaScola/workspace$ pwd
 ## ファイルを見る
 
 - `cat  [filename]` ... 全部見る
-- `more [filename]` ... 上から順に見る
-- `less [filename]` ... スクロールしながら見る
+- `more [filename]` ... 上から順に見る. スペースで「次へ」
+- `less [filename]` ... スクロールしながら見る。`q`で終了.
 
 ## ファイルを検索する
 
@@ -73,72 +84,73 @@ eric@DESKTOP-6GK3A2H:~/javaScola/workspace$ pwd
 
 ## その他
 
- 大量にコマンドあります。
+ 大量にコマンドあります。 `#`以降は、説明です.
  ```
- # 参考: 僕が使っているコマンド（一部）
+# 参考: 僕が使っているコマンド（一部）
 
-at
-brew
-cargo
+
+at # 指定時間にコマンド実行
+brew # linuxbrew
+cargo # Rustパッケージマネージャー
 cat
-bat
-cd
-chmod
-composer
+bat # catの代替コマンド
+cd 
+chmod # 権限（読み、書き、実行など）の変更
+composer # PHPのパッケージマネージャー
 cp
-crontab
-curl
-date
-diff
-disown
-dig
-dstask
-exit
+crontab # 指定した月日曜時分にコマンド実行（繰り返し）
+curl # HTTPゲット
+date # 日時のセットとゲット
+diff # ファイル同士の差分
+disown # 端末を閉じても実行を続ける
+dig # DNSのﾁｪｯｸ
+dstask # タスク管理
+exit # 終了
 find
-git
-head
-htop
-iconv
-ip
-java
-javac
-jobs
+git # バージョン管理システム
+head # ファイル先頭から見る
+htop # システム情報を見る
+iconv # ファイル文字コード変換
+ip # ネットワーク情報の表示
+java # Java実行
+javac # Javaコンパイル
+jobs # 端末で動いているプロセスの確認
 less
-ln
-locale
+ln # シンボリックリンク（ショートカット）を張るなど
+locale # ファイル名を探す
 ls
-lsblk
-mdless
-mkdir
-mv
-nmap
-nslookup
-node
-nohup
-note
-npm
-pandoc
-ping
-pwd
-rg
-rm
-rmdir
-scp
-ssh
-ssh-copy-id
-sudo
-tail
-tar
-touch
-tree
-tty-table
-uname
-unzip
-vi
-w
-watch
-wget
-which
-who
-zsh
+lsblk # ブロックデバイスを見る
+mdless # Markdownファイルを見る
+mkdir # ディレクトリを作成する
+mv # 名前の変更・移動
+nmap # ポートスキャン
+nslookup # DNS A レコード解決
+node # nodeJS実行
+nohup # 端末を閉じても実行
+note # 独自コマンド
+npm # NodeJSパッケージマネージャー
+pandoc # 文書変換(Word,Markdown,TeXなど　)
+ping # ネットワーク死活監視
+pwd # フルパスで表示
+rg # repgrep
+rm # 削除
+rmdir # 空のディレクトリを削除
+scp # Secure Copy (SSHでファイル転送)
+ssh # Secure Shell（リモートコマンドライン接続）
+ssh-copy-id（SSHで公開鍵転送）
+sudo（特権・ルート権限の実行）
+tail（ファイル末尾）
+tar（ファイルをアーカイブ化）
+touch（ファイル生成、最終変更日時変更）
+tree（Treeでリスト）
+tty-table（CSVをリッチに表示）
+uname（システム情報表示）
+unzip（ZIP解凍）
+vi（エディター）
+w（現在ログイン中のユーザー）
+watch（X秒毎にコマンドを実行し確認する）
+wget（HTTPダウンロード）
+which（コマンドの置いてある場所）
+who（現在ログインのユーザー）
+zsh（シェル）
 ```
