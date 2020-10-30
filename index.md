@@ -23,10 +23,11 @@
   - WindowsのCMD上でSSH
 
 ## 参考資料
-- Qiita: Java https://qiita.com/tags/java
-- https://www.javadrive.jp/start/
-- https://www.asahi-net.or.jp/~yf8k-kbys/newjava0.html
-- https://www.techscore.com/tech/Java/JavaIntro/index/
+- [技術ブログQiitaのJava](https://qiita.com/tags/java)
+- [質問サイトTeratailのJava](https://teratail.com/search?q=%5BJava%5D)
+- [JavaDriveさん](https://www.javadrive.jp/start/)
+- [yf8k-kbys氏](https://www.asahi-net.or.jp/~yf8k-kbys/newjava0.html)
+- [TechScore.com](https://www.techscore.com/tech/Java/JavaIntro/index/)
 - [ぐぐればでてきます](https://www.google.co.jp/search?q=Java+%E5%85%A5%E9%96%80)
 
 ## スコーラ資料（授業の日程と比例しません！）
@@ -67,9 +68,9 @@
 ### 03. Javaで学ぶプログラミングの基礎技術（オブジェクト指向型（クラス）プログラミング）
 
 - [03-1: クラスプログラミング](03/01.md)
-- [03-2: クラスの継承利用とオーバーライドについて](03/02.md)
-- 03-3: クラスの継承利用におけるコンストラクタの挙動
-- 03-4: インターフェースと実装
+- [03-2: ほかのクラスを継承したサブクラスの利用とオーバーライドについて、継承元であるスーパークラスのコンストラクタ呼び出し](03/02.md)
+- 03-3: インターフェースと実装
+- 03-4: GUI
 - 03-EX: バージョン管理のすすめ
 
 
