@@ -12,7 +12,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: linux
+    runs-on: ubuntu-latest
 
     steps:
       # シンボリックリンクを扱えるようGitを設定する
