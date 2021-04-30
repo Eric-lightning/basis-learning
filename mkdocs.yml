@@ -1,2 +1,43 @@
 site_name: basis-learning
-theme: material
+site_author: Yuto Nakagawa.
+site_description: 後輩への指導用ページ
+remote_name: origin
+remote_branch: master
+copyright: (c) 2020 - Yuto Nakagawa
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.tabs
+    - navigation.expand
+  palette:
+    scheme: preference
+    primary: deep orange
+    accent: amber
+markdown_extensions:
+  - admonition
+  - footnotes
+  - nl2br
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.tilde
+plugins:
+  - search:
+      lang:
+        - ja
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Eric-lightning
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/eric_lightning
+extra_javascript:
+  - lightbox2/js/lightbox-plus-jquery.min.js
+extra_css:
+  - lightbox2/css/lightbox.min.css
+  - styles/git_revision_date.css
