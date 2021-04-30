@@ -24,7 +24,7 @@ Summary: Linuxの導入
  - ユーザーの基本的概念（Root, Groups)
  - 権限の基本的概念（User,Group,Other,Read,Write,Execute）
  - [CoreUtils](https://ja.wikipedia.org/wiki/GNU_Core_Utilities)よりピックアップ
- - まずは，`whatis`, 
+ - まずは，`whatis`を利用してみる．
 
 - FileUtils
   - ls, touch, rm, mkdir, rmdir, cp, mv
