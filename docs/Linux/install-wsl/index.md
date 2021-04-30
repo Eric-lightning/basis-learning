@@ -1,4 +1,8 @@
-# WSLを有効化する方法
+Title: WSLを有効化する方法
+Date: 2021-04-29
+Category: Linux
+Tags: WSL
+
 
 事前にWindowsUpdateなどを行い最新の状態にしてください。
 

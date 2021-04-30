@@ -1,4 +1,10 @@
-# Linuxスコーラ資料
+Title: Linuxスコーラ資料
+Date: 2021-04-29
+Category: Linux
+Tags: WSL SSH
+Slug: foo
+Authors: Yuto Nakagawa
+Summary: Linuxの導入
 
 ## 初回
 

@@ -1,4 +1,8 @@
-# 大学サーバーにリモート接続する
+Title: 大学サーバーにリモート接続する
+Date: 2021-04-29
+Category: Linux
+Tags: SSH, Teraterm, RLogin
+Summary: SSHで大学に接続
 
 ここでは，大学サーバにリモート接続する方法を紹介します．
 手元にLinux環境がなくても，ネットワーク越しにLinuxを操作できます．
