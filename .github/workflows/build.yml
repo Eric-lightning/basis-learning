@@ -2,9 +2,9 @@ name: Build Site.
 
 on: 
   push:
-    # releaseブランチのdocsディレクトリ配下で
+    # masterブランチのdocsディレクトリ配下で
     # Markdown、画像、設定ファイルがpushされた時に実行する
-    branches: release
+    branches: master
     paths:
       - 'docs/**/*.md'
       - 'docs/assets/**'
