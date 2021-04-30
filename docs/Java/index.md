@@ -15,8 +15,6 @@
 
 EX. Java以外の言語も学んどけ。
 
-
-
 ## GATEWAY接続用ソフトウェア
 
 - [VPN: Global Protect](https://ssl.edu.tuis.ac.jp/)
