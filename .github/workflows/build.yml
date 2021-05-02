@@ -9,14 +9,9 @@ jobs:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master
-        uses: actions/checkout@v2
-
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        # Or use mhausenblas/mkdocs-deploy-gh-pages@nomaterial to build without the mkdocs-material theme
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONFIG_FILE: mkdocs.yml
-          EXTRA_PACKAGES: build-base
-          # GITHUB_DOMAIN: github.myenterprise.com
+      - name: apt-install-pip
+        run: apt install python3-pip
+      - name: pip-install-depenency
+        run: pip3 install -r https://raw.githubusercontent.com/Eric-lightning/basis-learning/master/mkdocs.yml
+      - name: deploy
+        run: mkdocs gh-deploy
