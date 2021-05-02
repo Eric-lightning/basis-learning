@@ -12,6 +12,6 @@ jobs:
       - name: apt-install-pip
         run: sudo apt install python3-pip
       - name: pip-install-depenency
-        run: pip3 install -r https://raw.githubusercontent.com/Eric-lightning/basis-learning/master/mkdocs.yml
+        run: pip3 install -r https://raw.githubusercontent.com/Eric-lightning/basis-learning/master/requirements.txt
       - name: deploy
         run: mkdocs gh-deploy
