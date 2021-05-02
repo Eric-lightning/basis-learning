@@ -17,10 +17,10 @@ Tags: WSL
 - 仮想マシンプラットフォーム（よりコンテナ化された仮想マシンプラットフォームが使える）
 
 
-![1. control.exe](control.png)
-![2. program](program.png)
-![3. programAndFeature](program-and-feature.png)
-![4. windows-feature](windows-feature.png)
+![1. control.exe](images/001/control.png)
+![2. program](images/001/program.png)
+![3. programAndFeature](images/001/program-and-feature.png)
+![4. windows-feature](images/001/windows-feature.png)
 
 
 再起動を求められるので，再起動します．
@@ -33,6 +33,6 @@ Tags: WSL
 __Ubuntuは，バージョン番号ナシの「Ubuntu」とより新しい「Ubuntu 20.04 LTS」などがありますので間違えないように__
 
 
-![5. Lunch MsStore](MsStore.png)
-![6. MsStoreSearch](MsStoreSearch.png)
-![6. MsStoreSearch](MsStoreSearch.png)
+![5. Lunch MsStore](images/001/MsStore.png)
+![6. MsStoreSearch](images/001/MsStoreSearch.png)
+![6. MsStoreSearch](images/001/MsStoreSearch.png)

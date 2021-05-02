@@ -12,8 +12,8 @@ Summary: Linuxの導入
 
 
 - VirtualBox上で起動する（スコーラでは紹介のみ）
-- [大学のサーバーにリモート接続する](connect-ssh/)
-- [WSLの導入方法](install-wsl/)
+- [大学のサーバーにリモート接続する](001_CONNECT_SSH_TO_GATEWAY.md)
+- [WSLの導入方法](001_HOW_TO_INSTALL_WSL.md)
 
 
 ## 第1回以降
