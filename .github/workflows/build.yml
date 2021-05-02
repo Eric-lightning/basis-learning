@@ -9,9 +9,10 @@ jobs:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - name: apt-install-pip
-        run: sudo apt install python3-pip
-      - name: pip-install-depenency
-        run: pip3 install -r https://raw.githubusercontent.com/Eric-lightning/basis-learning/master/requirements.txt
-      - name: deploy
-        run: mkdocs gh-deploy --config-file "./mkdocs.yaml"
+      - name: Checkout master
+        uses: actions/checkout@v1
+
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
