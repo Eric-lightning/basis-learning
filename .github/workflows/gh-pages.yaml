@@ -13,10 +13,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: documents
-      - name: releaseにチェックアウト
-        run:  git checkout -b release
-
-      - name: でぷろい
+      - name: masterへでぷろい
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
