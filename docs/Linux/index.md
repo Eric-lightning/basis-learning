@@ -15,12 +15,67 @@ Summary: Linuxの導入
 - [大学のサーバーにリモート接続する](001_CONNECT_SSH_TO_GATEWAY.md)
 - [WSLの導入方法](001_HOW_TO_INSTALL_WSL.md)
 
+## 基礎を知る
 
-## 第1回以降
+
+- [コマンドについて知る](COMMAND.md)
+- [ディレクトリ構造を知る](DIRECTORY.md)
+- [ユーザーやグループについて知る](USER_AND_GROUP.md)
+
+
+## TODO
+
+
+- ファイルの処理01: 作成・削除・移動・名前の変更・ファイルへの権限
+- テキストの中身（ASCII,UTF-8,バイト数）
+- テキストの出力（echo,printf,seq,date,whoami,pwd)
+- テキストの処理01: テキストストリーム（標準入出力とパイプ）とテキスト処理の基本的コマンド
+- テキストの処理02: 言語的・正規表現的な処理（grep,sed,awk）
+- テキストの処理03: エディタ
+- ファイルの処理02: 整合性と差分，文字コード変換
+
+- プロセスの管理01: プロセスの基礎（親子）
+- プロセスの管理02: コマンドライン上での管理(fg,bg,disown,nohups)
+- プロセスの管理03: 全体の管理と終了コード
+
+- インターネット01: ダウンロードとブラウジング（wget,curl,aria2,w3m,lynx,firefox,selenium)
+- インターネット02: cURLからAPIを使ってみる（DiscordのWebhook）
+- ユーティリティ01: 解凍と圧縮とその形式
+- ユーティリティ02: 検索2（find,locate）
+
+- インストール01: パッケージ管理を用いたインストール（x11-appsを例に）
+- インストール02: ビルド済みパッケージのインストール（実演のみ）
+- バージョン管理01: git clone
+- インストール03: ソースコードを用いたインストール（emiclockを例に）
+- インストール04: ソースコードを用いたインストール（応用）（ns2を例に）
+
+
+- SSH01: sshとrsyncと非推奨なscp, SOCK5（大学内)
+- SSH02: sh-copy-idと公開鍵認証（大学内）
+- VPN01: IPSec XAuth PSK と VPNC
+- SRV01: Google Cloud Platform と Amazon Web Serviceの無料枠
+
+
+
+- Xmingの導入と仕組み
+- apache2の導入と`/etc/init.d/`の構造，`systemd`の話．
+- wiresharkの導入とtcpdump
+
+
+
+
+
+
+
+
+
+
+
+
+
+## メモ
 
 - 基本的コマンドについて知る．
- - コマンドの形式
- - ディレクトリ構造（/,/home,/etc,/boot,/var,/bin,/usr/local,/root,/tmp)
  - ユーザーの基本的概念（Root, Groups)
  - 権限の基本的概念（User,Group,Other,Read,Write,Execute）
  - [CoreUtils](https://ja.wikipedia.org/wiki/GNU_Core_Utilities)よりピックアップ
