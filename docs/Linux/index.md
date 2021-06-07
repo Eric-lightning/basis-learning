@@ -20,7 +20,24 @@ Summary: Linuxの導入
 
 - [コマンドについて知る](COMMAND.md)
 - [ディレクトリ構造を知る](DIRECTORY.md)
+
+<!--
 - [ユーザーやグループについて知る](USER_AND_GROUP.md)
+-->
+
+## 参考資料
+
+Linux入門参考サイト
+
+ - エンジニアの入り口: https://eng-entrance.com/category/linux
+- Wikibook: https://ja.wikibooks.org/wiki/UNIX/Linux%E5%85%A5%E9%96%80
+- とほほ: http://www.tohoho-web.com/wwwunix.htm
+- 京都大学 Linuxマニュアル: https://web.kudpc.kyoto-u.ac.jp/manual/ja/linux
+- 逆引きLinux: https://linux.just4fun.biz/?%E9%80%86%E5%BC%95%E3%81%8DUNIX%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89
+- kazmax - Linuxで自宅サーバー: https://kazmax.zpp.jp/(編集済)
+
+
+
 
 
 ## TODO
