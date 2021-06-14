@@ -21,14 +21,14 @@ Summary: Linuxの導入
 - [コマンドについて知る](COMMAND.md)
 - [ディレクトリ構造を知る](DIRECTORY.md)
 - [ユーザーやグループについて知る](USER_AND_GROUP.md)
+- テキストの出力（echo,printf,seq,date,whoami,pwd)
+- [ファイルの処理01: 作成・削除・移動・名前の変更・ファイルへの権限](FILE_BASIS.md)
+- テキストの中身（ASCII,UTF-8,バイト数）[課題](kadai/TextEncoding.md)
 
 
 ## TODO
 
 
-- ファイルの処理01: 作成・削除・移動・名前の変更・ファイルへの権限
-- テキストの中身（ASCII,UTF-8,バイト数）
-- テキストの出力（echo,printf,seq,date,whoami,pwd)
 - テキストの処理01: テキストストリーム（標準入出力とパイプ）とテキスト処理の基本的コマンド
 - テキストの処理02: 言語的・正規表現的な処理（grep,sed,awk）
 - テキストの処理03: エディタ
