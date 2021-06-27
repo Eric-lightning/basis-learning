@@ -46,7 +46,7 @@ jobs:
       - name: Install mkdocx
         run: sudo pip install mkdocs
         
-      - name: test:
+      - name: test
         run: ls && find .
 
       # MkDocsでGitHubへデプロイする
