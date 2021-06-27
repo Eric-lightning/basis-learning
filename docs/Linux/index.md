@@ -25,6 +25,12 @@ Summary: Linuxの導入
 - テキストの出力（echo,printf,seq,date,whoami,pwd)
 - [ファイルの処理01: 作成・削除・移動・名前の変更・ファイルへの権限](FILE_BASIS.md)
 - テキストの中身（ASCII,UTF-8,バイト数）[課題](kadai/TextEncoding.md)
+- 文字コード変換(`nkf`,`iconv`)
+- テキストの処理01: テキストストリーム（標準入出力とパイプ）とテキスト処理の基本的コマンド
+- インターネット01: ダウンロードとブラウジング（wget,curl,aria2,w3m,lynx,firefox,selenium)
+- インターネット02: cURLからAPIを使ってみる（DiscordのWebhook）
+- バージョン管理01: git clone(discord.sh)
+
 
 ## 参考資料
 
@@ -38,37 +44,29 @@ Linux入門参考サイト
 - [kazmax - Linuxで自宅サーバ](https://kazmax.zpp.jp/)
 - [Server World](https://www.server-world.info/query?os=Ubuntu_18.04)
 
-
-
-
-
 ## TODO
 
-
-- テキストの処理01: テキストストリーム（標準入出力とパイプ）とテキスト処理の基本的コマンド
-- テキストの処理02: 言語的・正規表現的な処理（grep,sed,awk）
-- テキストの処理03: エディタ
-- ファイルの処理02: 整合性と差分，文字コード変換
-
+- [テキストの処理02: 置換等，言語的・正規表現的な処理（`grep`,`sed`,`awk`）](REGEX.md)
+- テキストの処理03: エディタ(vim,emacs,nano,`$EDITOR`)
+- ファイルの処理02: 整合性(`sha1sum`)と差分(`diff -up`)，
 - プロセスの管理01: プロセスの基礎（親子）
 - プロセスの管理02: コマンドライン上での管理(fg,bg,disown,nohups)
 - プロセスの管理03: 全体の管理と終了コード
 
-- インターネット01: ダウンロードとブラウジング（wget,curl,aria2,w3m,lynx,firefox,selenium)
-- インターネット02: cURLからAPIを使ってみる（DiscordのWebhook）
+
 - ユーティリティ01: 解凍と圧縮とその形式
-- ユーティリティ02: 検索2（find,locate）
+- [ユーティリティ02: 検索2（find,locate）](SEARCH.md)
 
-- インストール01: パッケージ管理を用いたインストール（x11-appsを例に）
-- インストール02: ビルド済みパッケージのインストール（実演のみ）
-- バージョン管理01: git clone
-- インストール03: ソースコードを用いたインストール（emiclockを例に）
-- インストール04: ソースコードを用いたインストール（応用）（ns2を例に）
+- インストール01: パッケージ管理を用いたインストール（`x11-apps`を例に）
+- インストール02: ビルド済みパッケージのインストール（`ripgrep`,）
+
+- インストール03: ソースコードを用いたインストール（`emiclock`を例に）
+- インストール04: ソースコードを用いたインストール（応用）（`ns2`を例に）
 
 
-- SSH01: sshとrsyncと非推奨なscp, SOCK5（大学内)
-- SSH02: sh-copy-idと公開鍵認証（大学内）
-- VPN01: IPSec XAuth PSK と VPNC
+- SSH01: `ssh`と`rsync`と非推奨な`scp`, SOCK5（大学内)
+- SSH02: `ssh-copy-id`と公開鍵認証（大学内）
+- VPN01: IPSec XAuth PSK と `vpnc`
 - SRV01: Google Cloud Platform と Amazon Web Serviceの無料枠
 
 

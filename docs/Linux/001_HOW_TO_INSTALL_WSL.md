@@ -36,3 +36,18 @@ __Ubuntuは，バージョン番号ナシの「Ubuntu」とより新しい「Ubu
 ![5. Lunch MsStore](images/001/MsStore.png)
 ![6. MsStoreSearch](images/001/MsStoreSearch.png)
 ![6. MsStoreSearch](images/001/MsStoreSearch.png)
+
+## 初回セットアップ
+
+1. usernameを設定
+2. passwordを２回打ち込んで設定．
+
+```sh
+sudo apt update
+sudo apt install upgrade -y
+
+sudo apt install language-pack-ja
+sudo apt install manpages-ja
+```
+
+- TODO:あとで確認．localeの設定．tzdata? 
