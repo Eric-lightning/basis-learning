@@ -9,8 +9,6 @@ jobs:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - name: FIX GCCないのでいんす子
-        run: sudo apt-get install gcc
       - name: documentブランチから
         uses: actions/checkout@v2
         with:
