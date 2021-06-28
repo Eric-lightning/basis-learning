@@ -2,7 +2,7 @@
 
 ## ソート・ユニーク, csvテクニック
 
-- Tranco.list: https://tranco-list.eu/
+- Tranco.list: [https://tranco-list.eu/](https://tranco-list.eu/)
 
 - `head`,`tail`,`tail -n +100`
 - `sort`
@@ -86,7 +86,7 @@ EECEEEEEEEEEEEE
 #### 実践
 
 - ASCII（英数字のみ，１バイト文字）なら良い．
-  - Romeo and Juliet: https://www.gutenberg.org/files/1112/1112.txt
+  - Romeo and Juliet: [https://www.gutenberg.org/files/1112/1112.txt](https://www.gutenberg.org/files/1112/1112.txt)
 
 > 1112.txtではなくRomemo.txtとして保存したい，適宜オプションをつけよう．
 
